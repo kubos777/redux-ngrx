@@ -1,0 +1,29 @@
+<div class="row text-center">
+  <div class="col">
+    <h1>Father counter </h1>
+    <h2> {{ counter }}</h2>
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col">
+    <button (click)="increase()" class="btn btn-primary">Increase</button>
+    <button (click)="decrease()" class="btn btn-info">Decrease</button>
+  </div>
+</div>
+
+<!--
+<hr>
+
+<div class="row text-center">
+  <div class="col">
+    <app-hijo [counter]="counter" (counterChange)="counter = $event"></app-hijo>
+  </div>
+</div>
+-->
+<hr>
+
+<div class="row text-center">
+  <div class="col">
+    <app-hijo></app-hijo>
+  </div>
+</div>
